@@ -1,0 +1,3 @@
+[submodule "src/CrowSoftware.Lib"]
+	path = src/CrowSoftware.Lib
+	url = git://github.com/MikeJansen/CrowSoftware.Lib.git

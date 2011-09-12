@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mail-O-Matic.Lib", "Mail-O-Matic.Lib\Mail-O-Matic.Lib.csproj", "{28D3FD2F-D2D1-4439-8A90-B9F941A95761}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mail-O-Matic.Test", "Mail-O-Matic.Test\Mail-O-Matic.Test.csproj", "{D5625577-A731-4C5A-AE07-8D305B37C20A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrowSoftware.Lib", "CrowSoftware.Lib\CrowSoftware.Lib\CrowSoftware.Lib.csproj", "{F3389C1A-FF28-4137-A386-1F6E6400B96F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDesk.Options", "CrowSoftware.Lib\NDesk.Options\src\NDesk.Options.StrongNamed\NDesk.Options.csproj", "{F2C4F557-36A7-4308-8271-D0D1A4685503}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{835FC148-5191-4D58-A912-FE7389AF7E32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28D3FD2F-D2D1-4439-8A90-B9F941A95761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28D3FD2F-D2D1-4439-8A90-B9F941A95761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28D3FD2F-D2D1-4439-8A90-B9F941A95761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28D3FD2F-D2D1-4439-8A90-B9F941A95761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5625577-A731-4C5A-AE07-8D305B37C20A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5625577-A731-4C5A-AE07-8D305B37C20A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5625577-A731-4C5A-AE07-8D305B37C20A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5625577-A731-4C5A-AE07-8D305B37C20A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3389C1A-FF28-4137-A386-1F6E6400B96F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3389C1A-FF28-4137-A386-1F6E6400B96F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3389C1A-FF28-4137-A386-1F6E6400B96F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3389C1A-FF28-4137-A386-1F6E6400B96F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2C4F557-36A7-4308-8271-D0D1A4685503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2C4F557-36A7-4308-8271-D0D1A4685503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2C4F557-36A7-4308-8271-D0D1A4685503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2C4F557-36A7-4308-8271-D0D1A4685503}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F3389C1A-FF28-4137-A386-1F6E6400B96F} = {835FC148-5191-4D58-A912-FE7389AF7E32}
+		{F2C4F557-36A7-4308-8271-D0D1A4685503} = {835FC148-5191-4D58-A912-FE7389AF7E32}
+	EndGlobalSection
+EndGlobal
